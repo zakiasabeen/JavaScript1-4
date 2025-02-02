@@ -70,6 +70,8 @@
 // alert(msg)
 
 // 8. Write a script to display this in browser through JS
+// message = "Yah! I can write HTML content through javascript "
+// document.write(message)
 
 // 9. Store following string in a variable and show in alert and browser through JS
 // alert("▬▬▬▬▬▬▬▬▬ஜ۩۞۩ஜ▬▬▬▬▬▬▬▬▬")
@@ -80,7 +82,8 @@
 // alert(age)
 
 // 2. Declare & initialize a variable to keep track of how many times a visitor has visited a web page. Show his/her number of visits on your web page. For example: “You have visited this site N times”.
-
+// var num = 8
+// alert("You have visited this site " + num + " times")
 
 // 3. Declare a variable called birthYear & assign to it your birth year. Show the following message in your browser:
 // var BirthYear = 1995
@@ -89,13 +92,22 @@
 // 4. A visitor visits an online clothing store www.xyzClothing.com . Write a script to store in variables the following information: 
 // a. Visitor’s name b. Product title c. Quantity i.e. how many products a visitor wants to order. Show the following message in your browser: “John Doe ordered 5 T-shirt(s) on XYZ Clothing store”.
 
+// var visitorName = "John Doe"; 
+// var productTitle = "T-shirt";
+// var quantity = 5;
+// var store = "XYZ Clothing Store"
+// var message = visitorName  + " ordered " + quantity  + " " + productTitle + " " + "on" + " " + store;
+// document.write(message);
+
 // CHAPTER 4
 // 1. Declare 3 variables in one statement.
 // var myName = "Zakia Sabeen ",
 //     myAge  =     50,
 //     myCity = " Karachi";
 //     console.log("Hello " + myName + myAge + myCity)
+// 
 // 2. Declare 5 legal & 5 illegal variable names.
+
 //  legal 
 // let fruitName; 
 // let $myschool; 
@@ -110,8 +122,6 @@
 // let 1122 ;
 // let *#menu ;
 
-
-
 //  3. Display this in your browser
 //  a) A heading stating “Rules for naming JS variables”
 //  b) Variable names can only contain ______, _______ ,___number___ and _letter_____.
@@ -119,3 +129,9 @@
 //  c) Variables must begin with a ______,_______ or _____. For example $name, _name or name
 //  d) Variable names are case _________
 //  e) Variable names should not be JS _________
+
+// document.write("<h1>Rules for naming JS variables</h1>");
+// document.write("<p>Variable names can only contain <u>letters</u>, <u>underscores</u>, <u>numbers</u> and <u>dollar signs</u>. For example $my_1stVariable</p>");
+// document.write("<p>Variables must begin with a <u>letter</u>, <u>underscore</u> or <u>dollar sign</u>. For example $name, _name or name</p>");
+// document.write("<p>Variable names are case <u>sensitive</u></p>");
+// document.write("<p>Variable names should not be JS <u>keywords</u></p>");
