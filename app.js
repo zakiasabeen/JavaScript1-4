@@ -1,6 +1,6 @@
 // CHAPTER NO. 1
 // 1. Write a script to greet your website visitor using JS alert box.
-// alert("Hello to my website");
+// alert("Hello and welcome to my website");
 
 // 2. Write a script to display following message on your webpage:
 // alert("Error! Please enter valid Password");
